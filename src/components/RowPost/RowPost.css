@@ -1,0 +1,28 @@
+
+.posters::-webkit-scrollbar {
+  display: none;
+}
+
+.poster,
+.small-poster {
+  margin-right: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  border-radius: 8px;
+}
+
+.poster:hover,
+.small-poster:hover {
+  transition: transform 0.3s;
+  -ms-transform: scale(1.4);
+  -webkit-transform: scale(1.4);  
+  transform: scale(1.05);
+}
+
+.poster {
+  max-height: 250px;
+}
+
+.small-poster {
+  max-height: 140px;
+}
